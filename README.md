@@ -1,6 +1,6 @@
 # npmtest-sendmail
 
-#### test coverage for  [sendmail (v1.1.1)](https://github.com/guileen/node-sendmail)  [![npm package](https://img.shields.io/npm/v/npmtest-sendmail.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sendmail) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sendmail.svg)](https://travis-ci.org/npmtest/node-npmtest-sendmail)
+#### basic test coverage for  [sendmail (v1.1.1)](https://github.com/guileen/node-sendmail)  [![npm package](https://img.shields.io/npm/v/npmtest-sendmail.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sendmail) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sendmail.svg)](https://travis-ci.org/npmtest/node-npmtest-sendmail)
 
 #### Sendmail without setting up SMTP server
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sendmail/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sendmail/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sendmail/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sendmail/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sendmail/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sendmail/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sendmail/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sendmail/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sendmail/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sendmail/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sendmail/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sendmail/build/coverage.html/index.html)
 
@@ -100,7 +100,8 @@
         "lint:fix": "standard --fix",
         "test": "npm run lint"
     },
-    "version": "1.1.1"
+    "version": "1.1.1",
+    "bin": {}
 }
 ```
 
